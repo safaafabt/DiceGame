@@ -9,7 +9,7 @@ pipeline {
 
   stages {
 
-    stage('Checkout Source') {
+    stage('Checkout Source Management') {
       steps {
       git 'https://github.com/safaafabt/DiceGame.git'
       }
